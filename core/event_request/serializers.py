@@ -7,7 +7,7 @@ from event.models import Event,Speaker
 class SpeakerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Speaker
-        fields = ['name','position']  #image n2saaa
+        fields = ['name','position'] 
 
 
 class RequestSerializer(serializers.ModelSerializer):

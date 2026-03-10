@@ -10,7 +10,7 @@ class Speaker(models.Model):
     speaker_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     position = models.CharField(max_length=100)
-    image = CloudinaryField('image')
+    
     
 
 
